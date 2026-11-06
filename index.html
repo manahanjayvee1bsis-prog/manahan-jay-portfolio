@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071735">
+  <meta name="description" content="Manahan Jay Vee G — BSIS 1B-G1 student portfolio for IS104.">
+  <title>Manahan Jay Vee G | Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <a class="brand" href="#home">Manahan Jay Vee G</a>
+  <a class="nav-cta" href="#work">View My Work <span>→</span></a>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-shade"></div>
+    <div class="hero-inner">
+      <div class="avatar" aria-label="Profile placeholder"><span>MJ</span></div>
+      <p class="hello">Hello, I'm</p>
+      <h1>Manahan Jay Vee G</h1>
+      <p class="subtitle">BSIS 1B-G1 <span>•</span> IS104</p>
+      <a class="button" href="#work">View My Work <span>→</span></a>
+    </div>
+    <a class="scroll-cue" href="#about" aria-label="Scroll to About Me">⌄</a>
+  </section>
+
+  <section class="about section" id="about">
+    <div class="section-inner">
+      <p class="eyebrow">ABOUT ME</p>
+      <h2>Welcome to my portfolio</h2>
+      <p class="intro">Hi! I'm <strong>Manahan Jay Vee G</strong>, a BSIS 1B-G1 student. This portfolio contains my activities, projects, and learning outputs for <strong>IS104</strong>. It is a collection of the work I complete as I continue learning and developing my skills.</p>
+      <div class="stats">
+        <div class="stat"><span class="stat-icon">🎓</span><div><small>Section</small><strong>BSIS 1B-G1</strong></div></div>
+        <div class="stat"><span class="stat-icon">📚</span><div><small>Subject</small><strong>IS104</strong></div></div>
+        <div class="stat"><span class="stat-icon">📁</span><div><small>Portfolio folders</small><strong>4 collections</strong></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work section" id="work">
+    <div class="section-inner">
+      <p class="eyebrow">MY WORK</p>
+      <h2>Activities and Projects</h2>
+      <p class="work-intro">Choose a folder to explore the files in my portfolio.</p>
+      <div class="breadcrumb" id="breadcrumb">⌂ Home</div>
+      <div class="folder-grid" id="folderGrid"></div>
+      <section class="file-panel hidden" id="filePanel">
+        <div class="panel-heading">
+          <button class="back-btn" id="backFolders">← All folders</button>
+          <h3 id="folderName"></h3>
+        </div>
+        <div class="file-grid" id="fileGrid"></div>
+      </section>
+      <section class="preview hidden" id="preview">
+        <div class="panel-heading">
+          <button class="back-btn" id="backFiles">← Back to files</button>
+          <h3 id="previewTitle"></h3>
+        </div>
+        <div class="preview-body" id="previewBody"></div>
+      </section>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <strong>Manahan Jay Vee G</strong>
+  <span>BSIS 1B-G1 · IS104</span>
+  <small>Student Portfolio</small>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
